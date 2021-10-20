@@ -12,10 +12,12 @@ function TweetBox() {
             src="/static/images/avatar/1.jpg"
             />
             <input placeholder="what's happening?"  type="text" />
-            {/* <input placeholder="Enter image URL" type="text"  */}
+            
             </div> 
-        
-        <Button>Tweet</Button>
+            <input className= "tweetBox__imageInput"
+             placeholder="Enter image URL" 
+             type="text" />
+        <Button className="tweetBox__tweetButton" >Tweet</Button>
         </form>   
     </div>;
     
